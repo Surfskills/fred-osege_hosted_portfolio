@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Surfskills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Card hover effect */
+.card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+
+    </style>
+</head>
+<body>
+
+<!-- Section 1: Home Page -->
+<section id="home" class="mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">𝕾𝖚𝖗𝖋𝖘𝖐𝖎𝖑𝖑𝖘 𝕬𝖓𝖆𝖑𝖞𝖙𝖎𝖈𝖘</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<section id="home2" class="d-flex flex-column justify-content-center align-items-center mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <!-- Intro Column -->
+                <h1>Welcome to Our Website</h1>
+                <p>
+                    <i>Surfskills Analytics Agency</i> is a distinguished consultancy firm that specializes in a range of <strong>vital services</strong>, including <strong>academic and research coaching</strong>, <strong>technical support for computer systems</strong>, and <strong>E-citizen services</strong>. Our comprehensive service offerings encompass:<br><br>
+                
+                    <strong>Academic and Research Coaching:</strong> At <i>Surfskills</i>, we provide invaluable guidance and training to our clients in the art of crafting high-quality academic papers. Our expert coaches are well-versed in various writing styles, enabling us to assist with all aspects of paper preparation. This includes proofreading tasks and conducting meticulous plagiarism checks to ensure the integrity of your work.<br><br>
+                
+                    <strong>Technical Support for Computer Systems:</strong> Our agency extends its expertise to technical support services for computer systems. We take care of all your computer-related needs, from routine maintenance to software installation and application support.<br><br>
+                
+                    <strong>E-citizen Services:</strong> <i>Surfskills Analytics Agency</i> excels in facilitating E-citizen services. This involves the efficient dissemination of necessary forms and documents for submission to relevant government offices, making the process of engaging with government agencies <i>hassle-free</i>.<br>
+                </p>
+                
+                <!-- Add your introductory content here -->
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <!-- Image Column -->
+                <div style="background-image: url('assets/img/homephoto.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; height: 90vh; margin: 0; padding: 0;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2: Services Page -->
+<section id="services" class="mb-5">
+    <div class="container">
+        <h1>Services</h1>
+        <div class="row">
+            <!-- Service Cards -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/itax.png" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">KRA Returns</h5>
+                        <p class="card-text">Price: Varied</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc1">Details</button>
+                        <div id="service1Desc1" class="collapse">
+                            <p>Our customer service team is here to assist you with any questions or concerns related to your KRA returns. Feel free to reach out for prompt and personalized support in ensuring a smooth and hassle-free tax filing experience.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/tims.png" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">TIMS Services</h5>
+                        <p class="card-text">Price: Ksh600</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc2">Details</button>
+                        <div id="service1Desc2" class="collapse">
+                            <p>Our TIMS customer service is dedicated to helping you navigate and resolve any issues you encounter while using the TIMS (Transport Integrated Management System) platform. We're committed to ensuring your seamless interaction with the system for all your transportation-related needs.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/passport.png" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Passport Application</h5>
+                        <p class="card-text">Price: Ksh800</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc3">Details</button>
+                        <div id="service1Desc3" class="collapse">
+                            <p>Our passport application customer service is readily available to guide you through the process, answer inquiries, and address any concerns you may have when applying for a passport. Count on us to assist you in making your passport application a smooth and efficient experience.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/writing.png" class="card-img-top" alt="Service 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Research & Writing</h5>
+                        <p class="card-text">Price: Varied</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc4">Details</button>
+                        <div id="service1Desc4" class="collapse">
+                            <p>Our research and writing customer service is committed to providing expert support throughout your research and writing journey. Whether you need assistance with research, writing, or editing, we're here to ensure your academic or professional work is of the highest quality.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/lappy.png" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Support</h5>
+                        <p class="card-text">Price: Varied</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc">Details</button>
+                        <div id="service1Desc" class="collapse">
+                            <p>Our IT support team is dedicated to providing timely and effective assistance for all your technical needs. Whether you have issues with software, hardware, or network configurations, we're here to ensure your IT systems run smoothly and securely.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/escrow.png" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Escrow Services</h5>
+                        <p class="card-text">Price: 5% of the Transaction</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc">Details</button>
+                        <div id="service1Desc" class="collapse">
+                            <p>Our escrow services customer support is your trusted partner in facilitating secure financial transactions. We are committed to offering guidance and assistance to ensure a transparent and reliable process for all parties involved in escrow agreements.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/btc.png" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">BTC</h5>
+                        <p class="card-text">Price: Varied</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc">Details</button>
+                        <div id="service1Desc" class="collapse">
+                            <p>Our customer service for peer-to-peer (P2P) Bitcoin buying and selling with various payment methods is designed to provide seamless and secure cryptocurrency transactions. We're here to assist you in navigating the process, whether you're buying or selling Bitcoin using a wide range of payment options, ensuring a safe and efficient trading experience.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="assets/img/surfpics/webdesign.png" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Price: Varied</p>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#service1Desc">Details</button>
+                        <div id="service1Desc" class="collapse">
+                            <p>Our website development customer service team is dedicated to crafting digital solutions that align with your unique vision and objectives. We're here to provide comprehensive support throughout the website development process, from conceptualization to design and deployment, ensuring your online presence is tailored to your exact needs and goals.</p>
+                        </div>
+                        <button class="btn btn-success">Add to Catalog</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat this card structure for other services -->
+        </div>
+    </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3: Contacts Page -->
+<section id="contacts" class="mb-5">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="row">
+            <div class="col-md-12 col-lg-6 order-2 order-lg-1">
+                <!-- Contact Form -->
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-6 order-1 order-lg-2">
+                <!-- Google Map -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.691856634532!2d36.93958737014724!3d-1.2138558370567618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f41c2b7799ae5%3A0x3e524955d2389c3e!2sSurfskills%20Analytics%20%26%20Cyber%2010.!5e0!3m2!1sen!2sgh!4v1697313987698!5m2!1sen!2sgh"
+                        class="embed-responsive-item" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    
+    $(document).ready(function() {
+      // Smooth scrolling for navbar links
+      $("a").on("click", function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+  
+          const hash = this.hash;
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800, // Animation duration in milliseconds
+            function() {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    });
+// for accordions
+    document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll(".card .btn-primary");
+    const collapseElements = document.querySelectorAll(".card .collapse");
+
+    buttons.forEach((button, index) => {
+      button.addEventListener("click", function() {
+        // Close all other accordions
+        collapseElements.forEach((element, i) => {
+          if (i !== index) {
+            element.classList.remove("show");
+          }
+        });
+      });
+    });
+  });
+    
+  </script>
+  
+  
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Surfskills Analytics Agency. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
