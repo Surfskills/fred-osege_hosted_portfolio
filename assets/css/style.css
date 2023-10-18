@@ -372,6 +372,11 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .education-background h4 {
+  font-size: 5px; /* You can adjust the font size as needed */
+    font-weight: 350;
+  font-size: 13px;
+}
 
 
 
